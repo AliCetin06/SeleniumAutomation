@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--Testing group the blank credintial case -->
+<suite name="CriticalTestCases" verbose="1">
+
+
+	<test name="forgetPasswordTest">
+
+		<groups>
+			<run>
+				
+
+			</run>
+		</groups>
+
+
+		<classes>
+			<class name="com.maven.class1.LoginTest" />
+
+
+		</classes>
+
+	</test>
+</suite>
+		
+		

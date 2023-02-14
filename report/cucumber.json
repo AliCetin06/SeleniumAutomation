@@ -1,0 +1,200 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-14T14:09:38.929Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5914000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.stepdefination.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "verify Table data with header",
+        "description": "",
+        "id": "verify-table-data-is-correct;verify-table-data-with-header",
+        "after": [
+          {
+            "result": {
+              "duration": 91000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.automation.stepdefination.Hooks.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9702000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user open the datatables website",
+            "match": {
+              "location": "com.automation.stepdefination.DataTableHomeSteps.user_open_the_datatables_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 94000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "verify user is on datatables homepage",
+            "match": {
+              "location": "com.automation.stepdefination.DataTableHomeSteps.verify_user_is_on_datatables_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 127000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "verify Table datas has following data with header",
+            "match": {
+              "location": "com.automation.stepdefination.DataTableHomeSteps.verify_table_datas_has_following_data_with_header(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Name",
+                  "Position",
+                  "Office",
+                  "age",
+                  "Start date"
+                ]
+              },
+              {
+                "cells": [
+                  "Airi Satou",
+                  "Accountant",
+                  "Tokyo",
+                  "33",
+                  "11/27/2008"
+                ]
+              },
+              {
+                "cells": [
+                  "Angelica Ramos",
+                  "Chief Executive Officer (CEO)",
+                  "London",
+                  "47",
+                  "10/8/2009"
+                ]
+              },
+              {
+                "cells": [
+                  "Ashton Cox",
+                  "Junior Technical Author",
+                  "San Francisco",
+                  "66",
+                  "1/11/2009"
+                ]
+              },
+              {
+                "cells": [
+                  "Bradley Greer",
+                  "Software Engineer",
+                  "London",
+                  "41",
+                  "10/12/2012"
+                ]
+              },
+              {
+                "cells": [
+                  "Brenden Wagner",
+                  "Software Engineer",
+                  "San Francisco",
+                  "28",
+                  "6/6/2011"
+                ]
+              },
+              {
+                "cells": [
+                  "Brielle Williamson",
+                  "Integration Specialist",
+                  "New York",
+                  "61",
+                  "12/1/2012"
+                ]
+              },
+              {
+                "cells": [
+                  "Bruno Nash",
+                  "Software Engineer",
+                  "London",
+                  "38",
+                  "5/2/2011"
+                ]
+              },
+              {
+                "cells": [
+                  "Caesar Vance",
+                  "Pre-Sales Support",
+                  "New York",
+                  "21",
+                  "12/11/2011"
+                ]
+              },
+              {
+                "cells": [
+                  "Cara Stevens",
+                  "Sales Assistant",
+                  "New York",
+                  "46",
+                  "12/5/2011"
+                ]
+              },
+              {
+                "cells": [
+                  "Cedric Kelly",
+                  "Senior Javascript Developer",
+                  "Edinburgh",
+                  "22",
+                  "3/28/2012"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@2ndDatatable"
+          }
+        ]
+      }
+    ],
+    "name": "verify table data is correct",
+    "description": "  Tester -Ali",
+    "id": "verify-table-data-is-correct",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/DataTable.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

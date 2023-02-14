@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 9.91 sec <<< FAILURE!
+addUserFunctionalityTest(com.automation.test.AddUserTest)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.automation.test.AddUserTest.addUserFunctionalityTest(AddUserTest.java:14)
+
+verifyLoginSuccesfulWithValidCred(com.automation.test.LoginTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.automation.test.LoginTest.verifyLoginSuccesfulWithValidCred(LoginTest.java:15)
+
